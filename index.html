@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>javascript</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Introducción a Javascript moderno</h2>
+					<img width="200" src="assets/images/jslogo.png" alt="" srcset="">
+					<p>Ricardo Arana Reyes Guerrero</p>
+				</section>
+				<section>
+					<h3>¿Qué es javascript?</h3>
+					<p class="fragment fade-up">
+						JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,2​ basado en prototipos, imperativo, débilmente tipado y dinámico.
+					</p>	
+				</section>
+				<section>
+					<h2>Rompiendo mitos de javascript</h2>
+					<ul>
+						<li class="fragment fade-up">JavaScript es lo mismo que java solo que aplicado para la web <span class="fragment fade-up false"> Falso</span> </li>
+						<li class="fragment fade-up">Javascript no permite el diseño de software orientado a objetos <span class="fragment fade-up false"> Falso</span> </li>
+						<li class="fragment fade-up">Javascript es un lenguaje solo para la web <span class="fragment fade-up false"> Falso</span> </li>
+						<li class="fragment fade-up">Javascript solo funciona en el navegador <span class="fragment fade-up false"> Falso</span> </li>
+					</ul>
+				</section>
+				<section>
+					<h3>Historia de javascrip</h3>
+					<div class="r-stack">
+						<h1 class="fragment">1995</h1>
+						<img class="fragment" src="./assets/images/historia1.jpg" width="450" height="450">
+						<img class="fragment" src="./assets/images/historia2.jpg" width="400" height="400">
+						<img class="fragment" src="./assets/images/historia3.png" width="300" height="300">
+						<img class="fragment" src="./assets/images/historia4.jpg" width="300" height="500">
+						<img class="fragment" src="./assets/images/historia5.png" width="300" height="300">
+						<img class="fragment" src="./assets/images/historia6.png" width="400" height="700">
+						<img class="fragment" src="./assets/images/historia7.jpg" width="600" height="450">
+					  </div>
+				</section>
+				<section data-background-color="rgb(170, 110, 30)">
+					
+					<img class="fragment" data-fragment-index="1" src="./assets/images/web-form.png" width="200" height="200" >
+					
+					<img class="fragment" data-fragment-index="2" src="./assets/images/flecha-hacia-arriba.svg" style="transform: rotate(90deg); margin-left: -10px" width="300" height="300">
+					
+					<img class="fragment" data-fragment-index="4" src="./assets/images/flecha-hacia-arriba.svg" style="transform: rotate(270deg); margin-left: -300px;margin-bottom: -80px;" width="300" height="300">
+					
+				
+					<img class="fragment" data-fragment-index="3" src="./assets/images/server.svg" style="margin-left: -100px; padding-top: 10px;" width="362" height="362">
+					
+				</section>
+				<section data-background-color="#dddddd">
+					<img src="./assets/images/Netscape_logo.svg-600x163.png" alt="" srcset="">
+				</section>
+				<section >
+					<img src="./assets/images/bendan.jpeg" alt="" srcset="">
+					<p>brendan Eich</p>
+				</section>
+				<section >
+					<div class="r-stack">
+						<h3 class="fragment fade-out">Mocha</h3>
+						<h3 class="fragment current-visible">Livescript</h3>
+					  </div>
+				</section>
+				<section data-background-color="#dddddd">
+					<img src="./assets/images/sun.png" alt="" srcset="">
+				</section>
+				<section>
+					<img src="./assets/images/jslogo.png" width="400" alt="" srcset="">
+				</section>
+				<section>
+					<img src="./assets/images/ie-vs-netscape.jpg" width="500" alt="" srcset="">
+				</section>
+				<section>
+					<div class="fragment">
+						<img src="./assets/images/ecma-logo.jpg" alt="" srcset="">
+					<p>European Computer Manufacturers Association</p>
+					</div>	
+					<div class="fragment">
+						<img src="./assets/images/jslogo.png" width="200" alt="">
+						<img src="./assets/images/as-01.png" width="200" alt="">
+					</div>
+				</section>
+				<section data-background-color="#dddddd">
+					<img src="./assets/images/ecma-ev.png" width="760" alt="" srcset="">
+				</section>
+				<section>
+					<h2>¿Qué puedo hacer con javascript?</h2>
+					<div class="fragment">
+						Aplicaciones web
+					</div>
+					<div class="fragment">
+						Aplicaciones Mobiles
+					</div>
+					<div class="fragment">
+						Aplicaciones de escritorio
+					</div>
+					<div class="fragment">
+						Juegos
+					</div>
+					<div class="fragment">
+						Arduino
+					</div>
+					<div class="fragment">
+						Muchas otras cosas más... como esta presentación
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				transition: 'convex',
+				progress: true,
+				history: true,
+				center: true,
+				help: true, 
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
